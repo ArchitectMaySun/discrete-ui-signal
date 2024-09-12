@@ -1,5 +1,5 @@
 import SignalManagement from "../../src/index";
-import { GroupLogic } from "../../src/signal_management/signal_management";
+import { GroupLogic } from "../../src/models/signal_management";
 
 export function create_fields_motitor() {
   const sm = new SignalManagement();
