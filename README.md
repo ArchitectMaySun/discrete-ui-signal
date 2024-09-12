@@ -5,8 +5,6 @@
 ```javascript
 import SignalManagement from "discrete-ui-signal";
 
-import SignalManagement from "../../dist/index";
-
 // # create signal management instance;
 const sm = new SignalManagement();
 
