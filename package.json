@@ -11,10 +11,10 @@
   "keywords": [
     "signal",
     "UI",
-    "communication",
+    "hierachy communication",
+    "cross-level communication",
     "events",
-    "level",
-    "irelavent"
+    "irelavent hierachy"
   ],
   "author": "Aresun",
   "license": "ISC",
