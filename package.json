@@ -1,6 +1,6 @@
 {
   "name": "discrete-ui-signal",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "discrete signal library for UI communication",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
