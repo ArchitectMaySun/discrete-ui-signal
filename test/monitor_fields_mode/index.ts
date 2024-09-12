@@ -22,7 +22,7 @@ export function create_fields_motitor() {
   ) {
     sm.monitor_one(field_name, (signal_context, field_value) => {
       signal_context.data = context_shaper_fn(field_value);
-      signal_context.notice();
+      signal_context.notice_groups();
     });
 
     signals_has_context_shaper.push(field_name);

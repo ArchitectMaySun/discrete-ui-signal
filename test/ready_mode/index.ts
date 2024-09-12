@@ -22,7 +22,7 @@ export function create_signal_manager() {
     context.data.is_ready = new_value;
 
     if (old_value !== new_value) {
-      context.notice();
+      context.notice_groups();
     }
   }
 

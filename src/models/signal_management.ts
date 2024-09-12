@@ -10,7 +10,7 @@ export interface SignalContexts {
 export interface SignalContext {
   data: SignalData | null;
   handler_ids: number[];
-  notice: () => void; // - notice context changed
+  notice_groups: () => void; // - notice context changed
 }
 export interface SignalData {
   [prop: string | number]: any;

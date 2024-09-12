@@ -69,7 +69,7 @@ export class SignalManagement {
       signal_context = {
         data: null,
         handler_ids: [], /// ids for all registed processor
-        notice: () => {
+        notice_groups: () => {
           // - in signal handler, signal context contain `trigger_context_changed`
           // - this is used to trigger global event `GLOBAL_EVENT_CONTEXT_CHANGED`
           this._context_changed(signal_name);
