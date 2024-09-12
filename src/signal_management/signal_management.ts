@@ -1,28 +1,12 @@
-const GLOBAL_EVENT_CONTEXT_CHANGED = `GLOBAL_EVENT_CONTEXT_CHANGED`;
-
-import SignalBus, { SignalHanlder } from "./signal_bus";
-
-export type GroupLogic = (group_contexts: SignalContexts) => void;
-
-export interface SignalGroup {
-  signal_names: string[]; // - all signal names of this group
-  group_logic: GroupLogic;
-}
-export interface SignalContexts {
-  [signal_name: string]: SignalContext; // - one signal has one context obejct;
-}
-export interface SignalContext {
-  data: SignalData | null;
-  handler_ids: number[];
-  notice: () => void; // - notice context changed
-}
-export interface SignalData {
-  [prop: string | number]: any;
-}
-
-export interface SignalProcessor {
-  (signal_context: SignalContext, ...args: any[]): void;
-}
+import { GLOBAL_EVENT_CONTEXT_CHANGED } from "../constants/index";
+import { SignalHanlder } from "../models/signal_bus";
+import {
+  GroupLogic,
+  SignalContexts,
+  SignalGroup,
+  SignalProcessor,
+} from "../models/signal_management";
+import SignalBus from "./signal_bus";
 
 export class SignalManagement {
   signal_contexts: SignalContexts;
