@@ -1,4 +1,4 @@
-import { GLOBAL_EVENT_CONTEXT_CHANGED } from "../constants/index";
+import { GLOBAL_EVENT_CONTEXT_CHANGED } from "../constants/index.js";
 import SignalBus from "./signal_bus";
 export class SignalManagement {
     constructor() {
