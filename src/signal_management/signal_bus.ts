@@ -1,4 +1,4 @@
-import { SignalHanlder, SignalHolder } from "../models/signal_bus";
+import { SignalHanlder, SignalHolder } from "../models/signal_bus.js";
 
 // •
 // • define customized event bus class

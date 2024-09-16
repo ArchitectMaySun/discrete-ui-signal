@@ -1,5 +1,5 @@
-import { GLOBAL_EVENT_CONTEXT_CHANGED } from "../constants/index";
-import { SignalHanlder } from "../models/signal_bus";
+import { GLOBAL_EVENT_CONTEXT_CHANGED } from "../constants/index.js";
+import { SignalHanlder } from "../models/signal_bus.js";
 import {
   GroupLogic,
   SignalContexts,
