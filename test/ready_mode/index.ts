@@ -2,7 +2,7 @@ export const SEARCH_READY = `SEARCH_READY`;
 export const TABLE_READY = `TABLE_READY`;
 export const ALL_IS_READY = `ALL_IS_READY`;
 
-import SignalManagement from "../../src/index.js";
+import SignalManagement from "../../dist/index.js";
 import {
   SignalContext,
   SignalContexts,

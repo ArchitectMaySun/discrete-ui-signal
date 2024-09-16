@@ -72,4 +72,4 @@ export class SignalManagement {
         this.signal_bus.$emit(signal_name, ...args);
     }
 }
-//# sourceMappingURL=signal_management.js.map
+//# sourceMappingURL=index.js.map
