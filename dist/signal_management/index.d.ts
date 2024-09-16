@@ -1,5 +1,5 @@
-import { GroupLogic, SignalContexts, SignalGroup, SignalProcessor } from "../models/signal_management";
-import SignalBus from "./signal_bus";
+import { GroupLogic, SignalContexts, SignalGroup, SignalProcessor } from "../models/signal_management.js";
+import SignalBus from "./signal_bus.js";
 export declare class SignalManagement {
     signal_contexts: SignalContexts;
     signal_bus: SignalBus;

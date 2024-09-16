@@ -1,5 +1,5 @@
 import { GLOBAL_EVENT_CONTEXT_CHANGED } from "../constants/index.js";
-import SignalBus from "./signal_bus";
+import SignalBus from "./signal_bus.js";
 export class SignalManagement {
     constructor() {
         this.signal_contexts = {};

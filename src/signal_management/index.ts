@@ -5,8 +5,8 @@ import {
   SignalContexts,
   SignalGroup,
   SignalProcessor,
-} from "../models/signal_management";
-import SignalBus from "./signal_bus";
+} from "../models/signal_management.js";
+import SignalBus from "./signal_bus.js";
 
 export class SignalManagement {
   signal_contexts: SignalContexts;
